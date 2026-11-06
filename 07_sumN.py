@@ -50,4 +50,5 @@ Sum = 0
 
 for i in range(Num+1):
     Sum = Sum + i
-    print(Sum)
+
+print(Sum)
