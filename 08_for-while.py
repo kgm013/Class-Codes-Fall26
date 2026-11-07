@@ -42,6 +42,7 @@ Another keyword we have in python is
         break
 As soon as your code runs the line containing this magic word, your loop STOPPPSSS
         THE LOOP WILL NOT COMPLETE THE CURRENT ITERATION EVEN
+        Applicable to all loops
         
 The following is an example of an inifinite loop
 '''
@@ -56,9 +57,13 @@ UserIn = int(input("Pls enter a num: "))
 count = 0
 myFlag = True
 
+# while myFlag is the same as writing while myFlag == True
 while myFlag:
     print(count)
     count += 1  # count = count + 1
     if count > UserIn:
         break
     print("Hello")
+
+
+print("Bye")
